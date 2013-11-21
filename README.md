@@ -566,22 +566,22 @@
     ```javascript
     // плохо
     if (name !== '') {
-      // ...делаем что-нибудь...
+      // ...код...
     }
 
     // хорошо
     if (name) {
-      // ...делаем что-нибудь...
+      // ...код...
     }
 
     // плохо
     if (collection.length > 0) {
-      // ...делаем что-нибудь...
+      // ...код...
     }
 
     // хорошо
     if (collection.length) {
-      // ...делаем что-нибудь...
+      // ...код...
     }
     ```
 
@@ -762,14 +762,14 @@
     ```javascript
     // плохо
     (function(global) {
-      // ...делаем что-нибудь...
+      // ...код...
     })(this);
     ```
 
     ```javascript
     // хорошо
     (function(global) {
-      // ...делаем что-нибудь...
+      // ...код...
     })(this);
 
     ```
@@ -979,12 +979,12 @@
     ```javascript
     // плохо
     function q() {
-      // ...делаем что-нибудь...
+      // ...код...
     }
 
     // хорошо
     function query() {
-      // ...делаем что-нибудь...
+      // ...код...
     }
     ```
 
@@ -1307,7 +1307,7 @@
     function setSidebar() {
       $('.sidebar').hide();
 
-      // ...делаем что-нибудь...
+      // ...код...
 
       $('.sidebar').css({
         'background-color': 'pink'
@@ -1319,7 +1319,7 @@
       var $sidebar = $('.sidebar');
       $sidebar.hide();
 
-      // ...делаем что-нибудь...
+      // ...код...
 
       $sidebar.css({
         'background-color': 'pink'
@@ -1379,7 +1379,7 @@
   - [jQuery Find vs Context, Selector](http://jsperf.com/jquery-find-vs-context-sel/13)
   - [innerHTML vs textContent for script text](http://jsperf.com/innerhtml-vs-textcontent-for-script-text)
   - [Long String Concatenation](http://jsperf.com/ya-string-concat)
-  - Loading...
+  - В процессе наполнения...
 
   **[[⬆]](#Оглавление)**
 
@@ -1387,28 +1387,28 @@
 ## <a name='resources'>Ресурсы</a>
 
 
-**Read This**
+**Прочитайте это**
 
   - [Annotated ECMAScript 5.1](http://es5.github.com/)
 
-**Other Styleguides**
+**Другие руководства по стилю**
 
   - [Google JavaScript Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
   - [jQuery Core Style Guidelines](http://docs.jquery.com/JQuery_Core_Style_Guidelines)
   - [Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/rwldrn/idiomatic.js/)
 
-**Other Styles**
+**Другие стили**
 
   - [Naming this in nested functions](https://gist.github.com/4135065) - Christian Johansen
   - [Conditional Callbacks](https://github.com/airbnb/javascript/issues/52)
   - [Popular JavaScript Coding Conventions on Github](http://sideeffect.kr/popularconvention/#javascript)
 
-**Further Reading**
+**Дальнейшее прочтение**
 
   - [Understanding JavaScript Closures](http://javascriptweblog.wordpress.com/2010/10/25/understanding-javascript-closures/) - Angus Croll
   - [Basic JavaScript for the impatient programmer](http://www.2ality.com/2013/06/basic-javascript.html) - Dr. Axel Rauschmayer
 
-**Books**
+**Книги**
 
   - [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742) - Douglas Crockford
   - [JavaScript Patterns](http://www.amazon.com/JavaScript-Patterns-Stoyan-Stefanov/dp/0596806752) - Stoyan Stefanov
@@ -1423,7 +1423,7 @@
   - [Superhero.js](http://superherojs.com/) - Kim Joar Bekkelund, Mads Mobæk, & Olav Bjorkoy
   - [JSBooks](http://jsbooks.revolunet.com/)
 
-**Blogs**
+**Блоги**
 
   - [DailyJS](http://dailyjs.com/)
   - [JavaScript Weekly](http://javascriptweekly.com/)
