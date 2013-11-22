@@ -1,4 +1,4 @@
-# Стиль написания кода на JavaScript от Airbnb
+# Стиль написания кода на JavaScript для Uprock
 
 *Перевод и расширение [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)*
 
