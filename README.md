@@ -1027,7 +1027,7 @@
     }
 
     var bad = new user({
-      name: 'nope'
+      name: 'Плохиш'
     });
 
     // хорошо
@@ -1036,7 +1036,7 @@
     }
 
     var good = new User({
-      name: 'yup'
+      name: 'Кибальчиш'
     });
     ```
 
