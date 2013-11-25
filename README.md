@@ -1,8 +1,6 @@
-# Стиль написания кода на JavaScript для Uprock
+# Стиль написания кода на JavaScript для Uprock: Перевод и расширение [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
-*Перевод и расширение [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)*
-
-* Наиболее разумный подход к JavaScript
+*Наиболее разумный подход к JavaScript*
 
 
 ## <a name='TOC'>Table of Contents</a>
