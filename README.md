@@ -158,7 +158,7 @@
     itemsCopy = items.slice();
     ```
 
-  - Чтобы скопировать похожий по свойствам на массив объект (например, HTMLNodeList или Arguments), используйте Array::slice.
+  - Чтобы скопировать похожий по свойствам на массив объект (например, NodeList или Arguments), используйте Array::slice.
 
     ```javascript
     function trigger() {
@@ -475,7 +475,7 @@
 
     // Интерпретатор переносит объявление переменной
     // к верху области видимости.
-    // Что значит, что предыдущий пример в действительности 
+    // Что значит, что предыдущий пример в действительности
     // будет воспринят интерпретатором так:
     function example() {
       var declaredButNotAssigned;
@@ -490,7 +490,7 @@
     function example() {
       console.log(anonymous); // => undefined
 
-      anonymous(); // => TypeError anonymous is not a function 
+      anonymous(); // => TypeError anonymous is not a function
       // Ошибка типов: переменная anonymous не является функцией и не может быть вызвана
 
       var anonymous = function() {
@@ -505,7 +505,7 @@
     function example() {
       console.log(named); // => undefined
 
-      named(); // => TypeError named is not a function 
+      named(); // => TypeError named is not a function
       // Ошибка типов: переменная named не является функцией и не может быть вызвана
 
       superPower(); // => ReferenceError superPower is not defined (Ошибка ссылки: переменная superPower не найдена в этой области видимости)
@@ -521,7 +521,7 @@
     function example() {
       console.log(named); // => undefined
 
-      named(); // => TypeError named is not a function 
+      named(); // => TypeError named is not a function
       // Ошибка типов: переменная named не является функцией и не может быть вызвана
 
       var named = function named() {
