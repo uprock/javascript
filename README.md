@@ -3,7 +3,7 @@
 *Наиболее разумный подход к JavaScript*
 
 
-## <a name='TOC'>Table of Contents</a>
+## <a name='TOC'>Оглавление</a>
 
   1. [Типы](#types)
   1. [Объекты](#objects)
