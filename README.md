@@ -921,7 +921,7 @@
     var totalScore = '' + this.reviewScore + ' итого';
 
     // хорошо
-    var totalScore = this.reviewScore + ' total score';
+    var totalScore = this.reviewScore + ' итого';
     ```
 
   - Используйте `parseInt` для чисел и всегда указывайте основание для приведения типов.
